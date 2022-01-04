@@ -23,6 +23,8 @@ export default {
 html,
 body {
   font-family: "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 * {
