@@ -25,28 +25,41 @@
     <div class="card__footer">
       <div class="card__footer__project-links">
         <span v-if="cardInfo.githubLink"
-          ><a :href="cardInfo.githubLink">Github</a></span
+          ><a :href="cardInfo.githubLink" target="_blank">Github</a></span
         >
         <span v-if="cardInfo.codepenLink"
-          ><a :href="cardInfo.codepenLink">CodePen</a></span
+          ><a :href="cardInfo.codepenLink" target="_blank">CodePen</a></span
         >
         <span v-if="cardInfo.blogLink"
-          ><a :href="cardInfo.blogLink">Blog</a></span
+          ><a :href="cardInfo.blogLink" target="_blank">Blog</a></span
+        >
+        <span v-if="cardInfo.customizedLink.infoTitle"
+          ><a
+            :class="{ disabled: cardInfo.customizedLink.link.length === 0 }"
+            :href="cardInfo.customizedLink.link"
+            target="_blank"
+            >{{ cardInfo.customizedLink.infoTitle }}</a
+          ></span
         >
       </div>
       <a
-        v-if="cardInfo.demoLink.length !== 0"
+        v-if="cardInfo.demoLink"
         :href="cardInfo.demoLink"
         class="card__footer__demo-link"
+        target="_blank"
       >
         <div class="card__footer__demo-link__triangle">&#9654;</div>
+        <span class="card__footer__demo-link__demo">Demo</span>
       </a>
       <router-link
         v-else
         :to="cardInfo.demoRoute"
         class="card__footer__demo-link"
+        :class="{ disabled: cardInfo.demoRoute.length === 0 }"
+        target="_blank"
       >
         <div class="card__footer__demo-link__triangle">&#9654;</div>
+        <span class="card__footer__demo-link__demo">Demo</span>
       </router-link>
     </div>
   </div>
@@ -99,9 +112,6 @@ a {
     .card__body__content-wrapper {
       opacity: 1;
     }
-    .card__footer__project-links {
-      color: #0e76a8;
-    }
   }
 
   &__body {
@@ -111,7 +121,7 @@ a {
     &__cover {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
     &__content-wrapper {
       position: absolute;
@@ -126,14 +136,12 @@ a {
       letter-spacing: 1px;
       opacity: 0;
       transition: opacity 0.25s linear;
-      &__title {
-        margin-bottom: 20px;
-      }
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
 
       &__tag-wrapper {
-        position: absolute;
-        top: 30px;
-        right: 35px;
+        align-self: flex-end;
         font-size: 12px;
         font-weight: 600;
         display: flex;
@@ -148,7 +156,8 @@ a {
       }
 
       &__desc {
-        line-height: 1.6;
+        line-height: 1.5;
+        font-weight: 400;
       }
     }
   }
@@ -161,11 +170,17 @@ a {
     display: flex;
     align-items: center;
     gap: 20px;
+    background: #4198c0;
+    color: #fff;
 
     &__project-links {
       display: flex;
       gap: 20px;
       transition: all 0.25s linear;
+      a.disabled {
+        cursor: default;
+        pointer-events: none;
+      }
     }
 
     &__demo-link {
@@ -182,27 +197,36 @@ a {
         0 10px 20px rgba(61, 65, 73, 0.05), inset 0 4px 7px 1px #ffffff;
       transform: translateY(-50%);
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       cursor: pointer;
       transition: box-shadow 0.1s linear;
+      color: #333;
 
       &__triangle {
         font-size: 36px;
-        color: #0e76a8;
-        transform: translateX(5px);
+      }
+
+      &__demo {
+        font-size: 12px;
       }
 
       &:hover,
       &:active {
         text-decoration: none;
         box-shadow: 2px 3px 8px 2px rgba(59, 66, 82, 0.24);
+        color: #0e76a8;
       }
 
       &:active {
-        .card__footer__demo-link__triangle {
-          color: #333;
-        }
+        color: #fc5a5a;
+      }
+
+      &.disabled {
+        cursor: default;
+        pointer-events: none;
+        color: #ccc;
       }
     }
   }
