@@ -3,7 +3,7 @@
     <h1 class="nav-title"><router-link to="home">Dolly Chen</router-link></h1>
     <ul class="nav-list">
       <li class="nav-list__item">
-        <a href="https://dollychen-cyc.github.io/DollyChen-CYC/src/doc/%E9%99%B3%E5%84%80%E7%92%9F%20-%20%E4%B8%AD%E6%96%87%E5%B1%A5%E6%AD%B7.pdf" target="_blank">Resume</a>
+        <a href="https://dollychen-cyc.github.io/DollyChen-CYC/src/doc/2022%20Resume-履歷.pdf" target="_blank">Resume</a>
       </li>
       <!-- <li class="nav-list__item">
         <router-link to="home">Portfolio</router-link>
