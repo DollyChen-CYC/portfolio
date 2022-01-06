@@ -153,8 +153,120 @@ export default {
           ]
         },
         {
-          name: 'Bootstrap 作品',
+          name: 'Mini-Projects with Creative UI ',
           id: 3,
+          description: '使用 HTML, CSS 以及 Vanilla JavaScript 建立獨特且富有創意的動畫與 UI',
+          projects: [
+            {
+              title: '霓虹 LED 功能選單列',
+              desc: '僅使用 HTML 和 CSS animation 完成的功能選單互動動畫。應用 CSS Animation 呈現滑鼠 hover 互動，當滑鼠移動到標的時，選單字樣會以 LED 跑馬燈的方式亮起。',
+              cover: '15-menu-hover-effect.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Front-end-Mini-Projects/tree/main/01%20CSS%20-%20Menu%20Hover%20Effects',
+              codepenLink: '',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Front-end-Mini-Projects/01%20CSS%20-%20Menu%20Hover%20Effects/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['HTML', 'CSS']
+            },
+            {
+              title: '趣味性的導覽列呈現',
+              desc: '點擊左上的導覽列圖示，感受趣味性的導覽列動畫與排版吧！',
+              cover: '10-rotating-navigation.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/03day_rotating_navigation',
+              codepenLink: 'https://codepen.io/dollychen_yiching/pen/PomexxR',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/03day_rotating_navigation/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+              title: '捲軸滑動特效',
+              desc: '應用 CSS transform 和 transition 特性完成的動態團隊介紹頁面。頁面開啟時，兩側的裝飾圖片會以漸速滑入，當使用者拉動卷軸往下瀏覽團隊資訊時，成員卡片會由兩側飛入。',
+              cover: '13-scroll-animation.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/06day_scroll_animation',
+              codepenLink: '',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/06day_scroll_animation/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['Vue.js', 'Sass/SCSS', 'RWD', 'Testing']
+            },
+            {
+              title: '頁面載入倒數動畫',
+              desc: '背景使用模糊特效處理的頁面載入倒數動畫，當頁面尚未載入完全時為模糊狀態，隨著載入的百分比趨近 100%，畫面會漸漸轉為清晰。',
+              cover: '12-blurry-loading.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/05day_Blurry%20Loading',
+              codepenLink: 'https://codepen.io/dollychen_yiching/pen/zYwmvOP',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/05day_Blurry%20Loading/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+              title: '雙主題 產品聚焦動畫',
+              desc: '雙主題並排呈列的產品頁面，頁面會隨著使用者滑鼠位置轉換展示方式，滑鼠所在的產品區塊會放大成為焦點，另一則商品則會淡化成為背景。',
+              cover: '14-Split-landing-page.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/07_Split%20landing%20page',
+              codepenLink: '',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/07_Split%20landing%20page/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+              title: '會跳舞的 input 標籤',
+              desc: '使用 CSS transform 和 transition 特性，搭配 DOM 操作製作的表單動畫，當使用者點擊輸入欄位時，label 內容會以波浪彈跳的方式移動，讓出 input box 的空間供使用者填寫資料。',
+              cover: '16-form-wave-label.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/08_Form%20Wave%20Input',
+              codepenLink: '',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/08_Form%20Wave%20Input/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['HTML', 'CSS', 'JavaScript']
+            },
+            {
+              title: '簡約帥氣的搜尋頁面',
+              desc: '點擊搜尋按鈕，體驗簡約時髦的搜尋條設計。',
+              cover: '11-hidden-search-bar.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/04day_hidden_search_widget',
+              codepenLink: 'https://codepen.io/dollychen_yiching/pen/MWmXwWp',
+              blogLink: '',
+              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/04day_hidden_search_widget/',
+              demoRoute: '',
+              customizedLink: {
+                infoTitle: '',
+                link: ''
+              },
+              tags: ['HTML', 'CSS', 'JavaScript']
+            }
+          ]
+        },
+        {
+          name: 'Bootstrap 作品',
+          id: 4,
           description: '使用 Bootstrap 框架建立的響應式網頁作品',
           projects: [
             {
@@ -190,99 +302,32 @@ export default {
           ]
         },
         {
-          name: 'Mini-Projects with Creative UI ',
-          id: 4,
-          description: '使用 HTML, CSS 以及 Vanilla JavaScript 建立獨特且富有創意的動畫與 UI',
-          projects: [
-            {
-              title: '趣味性的導覽列呈現',
-              desc: '點擊左上的導覽列圖示，感受趣味性的導覽列動畫與排版吧！',
-              cover: '10-rotating-navigation.png',
-              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/03day_rotating_navigation',
-              codepenLink: 'https://codepen.io/dollychen_yiching/pen/PomexxR',
-              blogLink: '',
-              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/03day_rotating_navigation/',
-              demoRoute: '',
-              customizedLink: {
-                infoTitle: '',
-                link: ''
-              },
-              tags: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-              title: '捲軸滑動特效',
-              desc: '應用 CSS transform 和 transition 特性完成的動態團隊介紹頁面。頁面開啟時，兩側的裝飾圖片會以漸速滑入，當使用者拉動卷軸往下瀏覽團隊資訊時，成員卡片會由兩側飛入。',
-              cover: '13-scroll-animation.png',
-              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/06day_scroll_animation',
-              codepenLink: 'https://codepen.io/dollychen_yiching/pen/YzVRQRM',
-              blogLink: '',
-              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/06day_scroll_animation/',
-              demoRoute: '',
-              customizedLink: {
-                infoTitle: '',
-                link: ''
-              },
-              tags: ['Vue.js', 'Sass/SCSS', 'RWD', 'Testing']
-            },
-            {
-              title: '頁面載入倒數動畫',
-              desc: '背景使用模糊特效處理的頁面載入倒數動畫，當頁面尚未載入完全時為模糊狀態，隨著載入的百分比趨近 100%，畫面會漸漸轉為清晰。',
-              cover: '12-blurry-loading.png',
-              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/05day_Blurry%20Loading',
-              codepenLink: 'https://codepen.io/dollychen_yiching/pen/zYwmvOP',
-              blogLink: '',
-              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/05day_Blurry%20Loading/',
-              demoRoute: '',
-              customizedLink: {
-                infoTitle: '',
-                link: ''
-              },
-              tags: ['HTML', 'CSS', 'JavaScript']
-            },
-            {
-              title: '簡約帥氣的搜尋頁面',
-              desc: '點擊搜尋按鈕，體驗簡約時髦的搜尋條設計。',
-              cover: '11-hidden-search-bar.png',
-              githubLink: 'https://github.com/DollyChen-CYC/Mini-Web-Projects-50-Days-Challenge/tree/main/04day_hidden_search_widget',
-              codepenLink: 'https://codepen.io/dollychen_yiching/pen/MWmXwWp',
-              blogLink: '',
-              demoLink: 'https://dollychen-cyc.github.io/Mini-Web-Projects-50-Days-Challenge/04day_hidden_search_widget/',
-              demoRoute: '',
-              customizedLink: {
-                infoTitle: '',
-                link: ''
-              },
-              tags: ['HTML', 'CSS', 'JavaScript']
-            }
-          ]
-        },
-        {
           name: 'Express.js 作品',
           id: 5,
           description: '在 Node.js 環境下以 Express 框架和 Handlebars 樣板引擎搭配 MongoDB 建⽴基本的網⾴',
           projects: [
             {
-              title: '作品集10',
-              desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,molestiae?',
-              cover: 'test.png',
-              githubLink: '#',
-              codepenLink: '#',
-              blogLink: '#',
+              title: '代辦事項紀錄 App',
+              desc: '使用 Express 和 Handlebars 樣板引擎搭配 MongoDB 建⽴的 Todo List App，可新增、查看、刪除、修改待辦清單。',
+              cover: '17-Express-TodoList.png',
+              githubLink: 'https://github.com/DollyChen-CYC/To-do-List',
+              codepenLink: '',
+              blogLink: '',
               demoLink: '',
               demoRoute: '',
               customizedLink: {
                 infoTitle: '',
                 link: ''
               },
-              tags: ['Vue.js', 'Sass/SCSS', 'RWD', 'Testing']
+              tags: ['Node.js', 'Express', 'Handlebars', 'MongoDB', 'Bootstrap']
             },
             {
-              title: '作品集11',
-              desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,molestiae?',
-              cover: 'test.png',
-              githubLink: '#',
-              codepenLink: '#',
-              blogLink: '#',
+              title: '熱門餐廳清單',
+              desc: '使用 Express 和 Handlebars 建⽴的熱門餐廳清單，可於首頁瀏覽所有餐廳，根據名稱、地點、餐廳類別進行搜尋，並可點擊查看餐廳詳細資訊。',
+              cover: '18-Express-Restaurant-list.png',
+              githubLink: 'https://github.com/DollyChen-CYC/Restaurant-List',
+              codepenLink: '',
+              blogLink: '',
               demoLink: '',
               demoRoute: '',
               customizedLink: {
@@ -299,9 +344,9 @@ export default {
           description: '使用 React 框架，運用 React-Router, Redux, 和 Hook 建立建⽴的 SPA (Single-page application)',
           projects: [
             {
-              title: '作品集12',
-              desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,molestiae?',
-              cover: 'test.png',
+              title: '即時聊天室(前端)',
+              desc: '前後端分離的協作專案，前端使用 React 框架搭配 Socket.IO 建立線上聊天 APP，綜合運用 React-Router、Redux 和 Hook 建立公開聊天室與 1 對 1 私人聊天室，可與所有上線用戶開啟聊天。',
+              cover: '19-React-chatroom.png',
               githubLink: '',
               codepenLink: '',
               blogLink: '',

@@ -5,9 +5,9 @@
       <li class="nav-list__item">
         <a href="＃" target="_blank">Resume</a>
       </li>
-      <li class="nav-list__item">
+      <!-- <li class="nav-list__item">
         <router-link to="home">Portfolio</router-link>
-      </li>
+      </li> -->
       <li class="nav-list__item">
         <a href="https://github.com/DollyChen-CYC" target="_blank">Github</a>
       </li>
