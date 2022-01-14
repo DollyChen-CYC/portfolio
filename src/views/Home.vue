@@ -39,7 +39,7 @@ export default {
           projects: [
             {
               title: '協作專案 - Alphitter 社群網站(前端)',
-              desc: '前、後端分離的 Sprint 團隊開發專案，模擬社群網站，包含註冊、登入、登出、發文、回覆、追蹤、按讚、修改個人資料...等功能。 (測試帳號/密碼：user1/12345678) ',
+              desc: '前、後端分離的 Sprint 團隊開發專案，模擬社群網站，包含註冊、登入、登出、發文、回覆、追蹤、按讚、修改個人資料...等功能。 ( 測試帳號 / 密碼：user1@example.com / 12345678 ) ',
               cover: '1-alphitter.png',
               githubLink: 'https://github.com/sh330035/twitter-frontend',
               codepenLink: '',
@@ -54,7 +54,7 @@ export default {
             },
             {
               title: '餐廳論壇',
-              desc: '使⽤ Vue.js 並串接 RESTful API 所建⽴的餐廳論壇。前台提供使用者註冊、登入/登出、收藏餐廳、新增評論、按讚、修改個人資料...等功能，並提供後台進行新增/刪除/修改功能。 (測試帳號/密碼：user1/12345678)',
+              desc: '使⽤ Vue.js 並串接 RESTful API 所建⽴的餐廳論壇。前台提供使用者註冊、登入/登出、收藏餐廳、新增評論、按讚、修改個人資料...等功能，並提供後台進行新增/刪除/修改功能。 (測試帳號 / 密碼： user1@example.com / 12345678)',
               cover: '2-restaurant-forum.png',
               githubLink: 'https://github.com/DollyChen-CYC/Restaurant-Forum',
               codepenLink: '',
