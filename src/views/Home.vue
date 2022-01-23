@@ -39,7 +39,7 @@ export default {
           projects: [
             {
               title: '協作專案 - Alphitter 社群網站(前端)',
-              desc: '前、後端分離的 Sprint 團隊開發專案，模擬社群網站，包含註冊、登入、登出、發文、回覆、追蹤、按讚、修改個人資料...等功能。 ( 測試帳號 / 密碼：user1@example.com / 12345678 ) ',
+              desc: '前、後端分離的 Sprint 團隊開發專案，模擬社群網站，包含註冊、登入、登出、發文、回覆、追蹤、按讚、修改個人資料...等功能。 ( 測試帳號 / 密碼：user1 / 12345678 ) ',
               cover: '1-alphitter.png',
               githubLink: 'https://github.com/sh330035/twitter-frontend',
               codepenLink: '',
@@ -308,12 +308,12 @@ export default {
           projects: [
             {
               title: '代辦事項紀錄 App',
-              desc: '使用 Express 和 Handlebars 樣板引擎搭配 MongoDB 建⽴的 Todo List App，可新增、查看、刪除、修改待辦清單。',
+              desc: '使用 Express 和 Handlebars 樣板引擎搭配 MongoDB 建⽴的 Todo List App，可新增、查看、刪除、修改待辦清單。 (測試帳號/密碼：user1@example.com / 12345678',
               cover: '17-Express-TodoList.png',
               githubLink: 'https://github.com/DollyChen-CYC/To-do-List',
               codepenLink: '',
               blogLink: '',
-              demoLink: '',
+              demoLink: 'https://polar-earth-37392.herokuapp.com/users/login',
               demoRoute: '',
               customizedLink: {
                 infoTitle: '',
